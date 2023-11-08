@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Друзі Михайла Івановича</title>
+	<style>
+		h1 {
+			text-align: center; 
+			font-size: 22px; 
+		}
+
+		p {
+			text-align: center;
+			font-style: italic;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 10px;
+			text-align: center; 
+		}
+
+		th {
+			background-color: green;
+			color: white;
+			font-weight: bold;
+		}
+
+		td:last-child {
+			text-align: right;
+		}
+
+		table tr:not(:first-child) {
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Друзі Михайла Івановича</h1>
+
+	<p><a href="index.html">Назад на головну</a></p>
+
+	<h2>Мої друзі</h2>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Прізвище</th>
+				<th>Ім’я</th>
+				<th>Дата народження</th>
+				<th>Адреса проживання</th>
+				<th>Контактний телефон</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Петров</td>
+				<td>Олександр</td>
+				<td>10.04.2004</td>
+				<td>вул. Шевченка 15, Київ</td>
+				<td>+380123456789</td>
+			</tr>
+			<tr>
+				<td>Сидорова</td>
+				<td>Ірина</td>
+				<td>22.08.2003</td>
+				<td>пр. Перемоги 20, Львів</td>
+				<td>+380987654321</td>
+			</tr>
+			<tr>
+				<td>Коваленко</td>
+				<td>Дмитро</td>
+				<td>05.11.2005</td>
+				<td>вул. Гагаріна 8, Харків</td>
+				<td>+380111223344</td>
+			</tr>
+			<tr>
+				<td>Мельник</td>
+				<td>Марія</td>
+				<td>17.02.2003</td>
+				<td>вул. Пушкінська 12, Одеса</td>
+				<td>+380555666777</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>Це мої найкращі друзі, і ми завжди разом проводимо час, ділимося радістю та підтримкою в складних моментах життя.</p>
+</body>
+
+</html>
