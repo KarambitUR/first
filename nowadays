@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сьогодення Квецка Михайла Івановича</title>
+	<style>
+		h1 {
+			text-align: center;
+			font-size: 22px;
+		}
+
+		p {
+			text-align: center;
+			font-style: italic;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		ul li:nth-child(odd) {
+			background-color: gray;
+			color: white;
+		}
+
+		ul li:nth-child(even) {
+			background-color: white;
+		}
+
+		ol li:nth-child(3):hover,
+		ol li:nth-child(5):hover {
+			cursor: pointer;
+			text-decoration: underline;
+			color: blue;
+		}
+
+		ol li:nth-child(4) {
+			background-color: lightgreen;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Сьогодення Квецка Михайла Івановича</h1>
+
+	<p><a href="index.html">Назад на головну</a></p>
+
+	<h2>Мій типовий список покупок</h2>
+	<ul>
+		<li>
+			Молочні продукти:
+			<ul>
+				<li>Молоко</li>
+				<li>Сметана</li>
+				<li>Масло</li>
+			</ul>
+		</li>
+		<li>
+			Овочі:
+			<ul>
+				<li>Помідори</li>
+				<li>Огірки</li>
+				<li>Капуста</li>
+			</ul>
+		</li>
+		<li>
+			М'ясо:
+			<ul>
+				<li>Курятина</li>
+				<li>Свинина</li>
+				<li>Яловичина</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h2>Мій улюблений десерт</h2>
+	<ul>
+		<li>
+			Приготувати тісто:
+			<ul>
+				<li>Закинути 0,5 кг борошна</li>
+				<li>Додати 3 яйця</li>
+				<li>Додати склянку молока</li>
+				<li>Додати півсклянки цукру</li>
+				<li>Перемішати</li>
+			</ul>
+		</li>
+		<li>
+			Формувати печиво:
+			<ul>
+				<li>Розкачати тісто</li>
+				<li>Вирізати форми за бажанням</li>
+				<li>Випікати в духовці 15-20 хвилин</li>
+			</ul>
+		</li>
+		<li>
+			Прикрасити та подавати:
+			<ul>
+				<li>Посипати цукром-пудрою</li>
+				<li>Подавати з чашкою кави</li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
